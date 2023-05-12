@@ -60,8 +60,8 @@ $ expo start
 
 ```bash
 # Execute em outro terminal (dentro da pasta AluraCommerce)
-# Lembre-se de alterar o endereco ip (192.168.15.43) para o do seu computador!
-$ json-server --watch --host 192.168.15.43 db.json
+# Lembre-se de alterar o endereco ip (192.168.1.4) para o do seu computador!
+$ json-server --watch --host 192.168.1.4 db.json
 ```
 
 
