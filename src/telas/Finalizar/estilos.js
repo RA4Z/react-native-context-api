@@ -7,66 +7,29 @@ export const estilos = (tema) => {
     flex: 1,
     backgroundColor: tema.fundo,
     alignItems: 'stretch',
-    justifyContent: 'center',
-  },
-  tituloArea: {
-    width: '100%',
-    alignItems: 'center',
-    justifyContent: 'space-around',
-    flexDirection: 'row',
-    paddingTop: Constants.statusBarHeight,
-    marginBottom: 16,
   },
   titulo: {
     fontSize: 20,
     fontWeight: 'bold',
     color: tema.titulo,
   },
-  lista: {
-    flex: 1,
-    width: '100%',
-  },
-  ultimosVistos: {
-    marginBottom: 16,
-    paddingVertical: 16,
-    backgroundColor: tema.ultimosVistos,
-  },
-  tituloUltimosVistos: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    color: tema.titulo,
-    marginHorizontal: 16,
-    marginBottom: 8,
-  },
-  carrinhoArea: {
-    flexDirection: 'row',
-    alignItems: 'flex-end',
-    justifyContent: 'flex-end',
-  },
-  carrinhoIcon: {
-    fontSize: 30,
-    fontWeight: 'bold',
-    color: tema.titulo,
-  },
-  carrinhoQuantidadeArea: {
-    backgroundColor: 'red',
-    borderRadius: 10,
-    width: 20,
-    height: 20,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  carrinhoQuantidade: {
-    fontSize: 12,
-    fontWeight: 'bold',
-    color: "#fff",
-  },
-  iconArea: {
-    marginLeft: 16,
-  },
-  icon: {
+  texto: {
+    fontSize: 20,
     color: tema.texto,
-    fontSize: 30,
+  },
+  infoEntrega: {
+    borderRadius: 16,
+    margin: 10,
+    padding:16,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+    alignItems: 'flex-start',
+    backgroundColor: tema.cinza,
   },
   botao: {
     margin: 16,
