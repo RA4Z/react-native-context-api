@@ -12,11 +12,14 @@ const [temaAtual, setTemaAtual] = useState('escuro')
     'claro': claro
   }
 
-  useEffect(async () => {
+  useEffect(() => {
+    async function fetchData() {
       const temaSalvo = await AsyncStorage.getItem('@tema')
       if(temaSalvo) {
         setTemaAtual(temaSalvo)
       }
+    }
+    fetchData()
   },[])
 
   async function salvarTemaNoDispositivo(tema) {
