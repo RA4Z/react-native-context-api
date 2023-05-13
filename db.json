@@ -5,6 +5,18 @@
       "texto": "Sofá confortavel",
       "preco": 250,
       "id": 4
+    },
+    {
+      "imagem": 6,
+      "texto": "Cadeira de trabalho",
+      "preco": 150,
+      "id": 5
+    },
+    {
+      "imagem": 3,
+      "texto": "Tenis bacana",
+      "preco": 100,
+      "id": 6
     }
   ]
 }

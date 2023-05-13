@@ -12,7 +12,7 @@ export function ProdutosProvider( {children} ) {
       async function fetchData() {
         const resultado = await pegarProdutos();
         setCarrinho(resultado);
-        setQuantidade(resultado.lenght)
+        setQuantidade(resultado.length)
       }
       fetchData()
     },[])

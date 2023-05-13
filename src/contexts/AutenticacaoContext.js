@@ -6,7 +6,7 @@ export function AutenticacaoProvider( {children} ) {
     const [usuario, setUsuario] = useState({})
 
     function login(email, senha) {
-        if(email == 'Robert@email.com' && senha == 123){
+        if(email == 'raz' && senha == 123){
             setUsuario({
                 nome: 'Robert',
                 email: email,
